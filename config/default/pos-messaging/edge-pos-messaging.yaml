@@ -7,10 +7,10 @@ spec:
   resources:
     requests:
       cpu: 500m
-      memory: 500MiB
+      memory: 500Mi
     limits:
       cpu: 500m
-      memory: 500MiB
+      memory: 500Mi
   service:
     type: NodePort
   rabbitmq:
