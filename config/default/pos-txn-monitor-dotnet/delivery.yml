@@ -59,7 +59,7 @@ spec:
           valueFrom:
             secretKeyRef:
               key: password
-              name: edge-pos-messaging-rabbitmq
+              name: edge-pos-messaging-default-user
               optional: false
         - name: POSTxnMonitor__StoreId
           valueFrom:
