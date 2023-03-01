@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  POSTxnMonitor__StoreId: "edge-us-227"
+kind: ConfigMap
+metadata:
+  name: store-config
+  namespace: default
